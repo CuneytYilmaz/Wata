@@ -1,2 +1,17 @@
-﻿body {
+﻿nav{
+    background-color:#fff;
+}
+
+nav .brand-logo{
+    color:#000;
+    padding-left:15px;
+    text-decoration:none;
+    letter-spacing:-2px;
+}
+
+.bitisik{
+    letter-spacing:-3px;
+}
+
+body {
 }
