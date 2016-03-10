@@ -30,6 +30,109 @@ nav ul li a.active{
     border-bottom: 4px solid #69f0ae;
 }
 
+#ucgen{
+    position:relative;
+    height:603px;
+    background-image:url(../images/gecicisvg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+}
+
+#ucgen .ucgen-baslik{
+    position:absolute;
+    top:100px;
+    color:#fff;
+}
+
+@font-face{
+    src:url(../font/roboto/Roboto-Regular.ttf);
+    font-family:fontum;
+}
+
+#ucgen .ucgen-baslik h1{
+    font-size:5rem;
+    line-height:7.4rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    text-align:center;
+    font-weight:100;
+    font-family:fontum;
+}
+
+#ucgen #asagi-btn{
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    margin-left:-27.75px;
+}
+
+#servis .alt-satir{
+    padding-bottom:70px;
+    border-bottom:1px solid #e0e0e0;
+}
+
+#servis h2{
+    margin-top:40px;
+    font-size:64px;
+    line-height:110%;
+    letter-spacing:4px;
+    text-align:center;
+    font-weight:100;
+    margin-bottom:40px;
+}
+
+#servis .kenar{
+    position:absolute;
+    left:47%;
+    background-color:#69f0ae;
+    width:100px;
+    height:5px;
+}
+
+#servis .col-md-3{
+    text-align:center;
+}
+
+#servis .divider{
+    margin-top:13px;
+}
+
+#servis h5{
+    letter-spacing:3px;
+    font-weight:400;
+}
+
+#servis p{
+    font-weight:300;
+}
+
+#servis a{
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#servis .col-md-3:hover .divider{
+    background-color: rgb(41, 56, 203);
+}
+
+#servis .el-emegi{
+    color:#000;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.15),0 4px 15px 0 rgba(0,0,0,0.15);
+    padding:0 2rem;
+    font-size:14px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#servis .el-emegi:hover{
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.3),0 4px 15px 0 rgba(0,0,0,0.25);
+}
+
+.resim-tab{
+    border:none;
+}
 
 body {
+    line-height:1.5;
+    font-weight:normal;
 }

@@ -14,13 +14,13 @@
 </head>
 <body>
 
-    <div class="navbar-fixed">
+    <div class="navbar-fixed" id="nav">
         <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo"><span class="bitisik">W</span>ata</a>
                 <ul id="nav-mobile menu" class="right hide-on-med-and-down">
-                    <li><a onclick="clickSingleA(this)" class="single active" href="#">Home</a></li>
-                    <li><a onclick="clickSingleA(this)" class="single" href="#">Services</a></li>
+                    <li><a onclick="clickSingleA(this)" class="single active" href="#ucgen">Home</a></li>
+                    <li><a onclick="clickSingleA(this)" class="single" href="#servis">Services</a></li>
                     <li><a onclick="clickSingleA(this)" class="single" href="#">Works</a></li>
                     <li><a onclick="clickSingleA(this)" class="single" href="#">About</a></li>
                     <li><a onclick="clickSingleA(this)" class="single" href="#">Prices</a></li>
@@ -31,6 +31,87 @@
             </div>
         </nav>
     </div>
+
+    <div id="ucgen">
+        <div class="ucgen-baslik valign-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h1>We work really hard to make your lives easier.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="btn-floating btn-large waves-effect waves-dark green accent-2" id="asagi-btn"><i class="fa fa-arrow-down" style="color:#1a237e; font-weight:100;"></i></a>
+    </div>
+
+    <div class="section" id="servis">
+        <div class="container">
+            <div class="row"  style="margin-bottom:40px;">
+                <h2>WE ARE WATA</h2>
+                <div class="kenar"></div>
+                <div class="col-md-12">
+                    <p class="flow-text" style="text-align:center; margin-top:50px;">
+                        We're a small local company focused on crafting special and precise products that really help in your everyday life. Feel free to check out our services and explore the gallery of our works.
+                    </p>
+                </div>
+            </div>
+            <div class="row alt-satir">
+                <div class="col-md-3">
+                    <i class="fa fa-5x fa-paint-brush animated-color" style="color: rgb(41, 56, 203);"></i>
+                    <div class="divider"></div>
+                    <h5>CREATIVE DESIGN</h5>
+                    <p>Inspired by the latest trends of Material design, using cutting-edge technologies for a fresh and modern look. More design, all the time</p>
+                    <a class="el-emegi waves-effect waves-dark">Learn More</a>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-5x fa-desktop animated-color" style="color: rgb(41, 56, 203);"></i>
+                    <div class="divider"></div>
+                    <h5>FITS ALL SCREENS</h5>
+                    <p>Designed as a mobile-first application, the grid scales to fit even the largest monitors. The content always looks nice and balanced.</p>
+                    <a class="el-emegi waves-effect waves-dark">Discover</a>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-5x fa-cog animated-color" style="color: rgb(41, 56, 203);"></i>
+                    <div class="divider"></div>
+                    <h5>EASILY CUSTOMIZABLE</h5>
+                    <p>You are welcome to customize the elements to fit your needs. The proccess is simple and pleasant thanks for a Material color palette</p>
+                    <a class="el-emegi waves-effect waves-dark">Try it</a>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-5x fa-code animated-color" style="color: rgb(41, 56, 203);"></i>
+                    <div class="divider"></div>
+                    <h5>CAREFULLY CODED</h5>
+                    <p>Beautiful on the outside and smart on the inside. Our code is clean, extremely readable and no trouble to modify or maintain.</p>
+                    <a class="el-emegi waves-effect waves-dark">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="isler">
+        <div class="container">
+            <div class="row">
+                <h2>OUR WORKS</h2>
+                <div class="kenar"></div>
+
+                <ul class="nav nav-tabs resim-tab" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Everything</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Material</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Food</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Digital</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+                    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
