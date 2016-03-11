@@ -71,7 +71,7 @@ nav ul li a.active{
     border-bottom:1px solid #e0e0e0;
 }
 
-#servis h2, #isler h2{
+h2{
     margin-top:40px;
     font-size:64px;
     line-height:110%;
@@ -185,15 +185,6 @@ nav ul li a.active{
     background-color:rgb(242, 242, 242);
 }
 
-#ara-kisim h2{
-    text-align:center;
-    font-size:64px;
-    letter-spacing:5px;
-    line-height:110%;
-    font-weight:100;
-    padding-bottom:10px;
-}
-
 #ara-kisim a{
     font-size:15px;
     margin-top:20px;
@@ -211,6 +202,48 @@ nav ul li a.active{
 
 #ara-kisim a:hover{
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.3),0 4px 15px 0 rgba(0,0,0,0.25);
+}
+
+.yazi{
+    text-align:center;
+}
+
+.cerceve:hover .aciklama{
+    opacity:1;
+}
+
+.aciklama{
+    position:absolute;
+    background-color:rgba(105,240,174,.9);
+    width:100%;
+    height:106%;
+    opacity:0;
+    top:-12px;
+    left:2px;
+}
+
+#hakkimizda small{
+    letter-spacing:4px;
+    font-size:60%;
+    color: rgba(0,0,0,0.87);
+}
+
+#hakkimizda a{
+    font-size:15px;
+    text-decoration:none;
+    color:#1a237e;
+}
+
+#hakkimizda a:hover{
+    color:#039be5;
+}
+
+#hakkimizda .bilgiler{
+    margin-top:109px;
+}
+
+#hakkimizda .icon{
+    margin-right:0.25rem;
 }
 
 body {
