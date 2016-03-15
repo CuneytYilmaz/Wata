@@ -31,3 +31,10 @@ $('input[name="rb-fiyat"]').on('change', function () {
         $("#fiyat3").text("€87");
     }
 });
+
+$('#uyelik a').click(function (e) {
+
+    if ($('#uyelik #email').val() != null) {
+        Materialize.toast('Please enter a value', 4000);
+    }
+})

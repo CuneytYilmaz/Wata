@@ -24,8 +24,8 @@
                     <li><a onclick="clickSingleA(this)" class="single" href="#isler">Works</a></li>
                     <li><a onclick="clickSingleA(this)" class="single" href="#hakkimizda">About</a></li>
                     <li><a onclick="clickSingleA(this)" class="single" href="#fiyatlar">Prices</a></li>
-                    <li><a onclick="clickSingleA(this)" class="single" href="#">Subscribe</a></li>
-                    <li><a onclick="clickSingleA(this)" class="single" href="#">Blog</a></li>
+                    <li><a onclick="clickSingleA(this)" class="single" href="#uyelik">Subscribe</a></li>
+                    <li><a onclick="clickSingleA(this)" class="single" href="#blog">Blog</a></li>
                     <li><a onclick="clickSingleA(this)" class="single" href="#">Contact</a></li>
                 </ul>
             </div>
@@ -405,7 +405,7 @@
                     <p style="float:right; font-size:15px;">
                         Choose your currency :
                         <span class="cb-para">
-                            <input type="radio" id="usd" name="rb-fiyat" value="$" />
+                            <input type="radio" id="usd" name="rb-fiyat" value="$" checked="checked" />
                             <label for="usd">$</label>
                         </span>
                         <span class="cb-para">
@@ -418,65 +418,94 @@
         </div>
 
         <div class="wide-container" style="padding-right:40px; padding-left:40px;">
-            <div class="col-md-4">
-                <div class="fiyat-bolumleri">
-                    <div class="fiyat-baslik">
-                        STANDARD
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fiyat-bolumleri">
+                        <div class="fiyat-baslik">
+                            STANDARD
+                        </div>
+                        <div class="divider"></div>
+                        <div class="fiyat" id="fiyat1">$19</div>
+                        <ul>
+                            <li>Mobile support</li>
+                            <li>Site optimization</li>
+                            <li>SEO setup</li>
+                            <li>Subscribers</li>
+                            <li>Support tickets</li>
+                        </ul>
+                        <p class="center-align">
+                            <a class="el-emegi waves-effect waves-dark">CHOOSE</a>
+                        </p>
                     </div>
-                    <div class="divider"></div>
-                    <div class="fiyat" id="fiyat1">$19</div>
-                    <ul>
-                        <li>Mobile support</li>
-                        <li>Site optimization</li>
-                        <li>SEO setup</li>
-                        <li>Subscribers</li>
-                        <li>Support tickets</li>
-                    </ul>
-                    <p class="center-align">
-                        <a class="el-emegi waves-effect waves-dark">CHOOSE</a>
-                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="fiyat-bolumleri" style="box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21) !important;">
+                        <div class="fiyat-baslik" style="font-weight:600 !important;">
+                            PROFESSIONAL
+                        </div>
+                        <div class="divider"></div>
+                        <div class="fiyat" id="fiyat2">$49</div>
+                        <ul>
+                            <li>Mobile support</li>
+                            <li>Site optimization</li>
+                            <li>SEO setup</li>
+                            <li>Subscribers</li>
+                            <li>PHP integration</li>
+                            <li>Unlimited support</li>
+                        </ul>
+                        <p class="center-align">
+                            <a class="el-emegi ozel waves-effect waves-light">CHOOSE</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fiyat-bolumleri">
+                        <div class="fiyat-baslik">
+                            EXTENDED
+                        </div>
+                        <div class="divider"></div>
+                        <div class="fiyat" id="fiyat3">$99</div>
+                        <ul>
+                            <li>Mobile support</li>
+                            <li>Site optimization</li>
+                            <li>SEO setup</li>
+                            <li>MailChimp Subscribers</li>
+                            <li>WebGL effects</li>
+                            <li>PHP integration</li>
+                            <li>Unlimited support</li>
+                        </ul>
+                        <p class="center-align">
+                            <a class="el-emegi waves-effect waves-dark">CHOOSE</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="fiyat-bolumleri" style="box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21) !important;">
-                    <div class="fiyat-baslik" style="font-weight:600 !important;">
-                        PROFESSIONAL
-                    </div>
-                    <div class="divider"></div>
-                    <div class="fiyat" id="fiyat2">$49</div>
-                    <ul>
-                        <li>Mobile support</li>
-                        <li>Site optimization</li>
-                        <li>SEO setup</li>
-                        <li>Subscribers</li>
-                        <li>PHP integration</li>
-                        <li>Unlimited support</li>
-                    </ul>
-                    <p class="center-align">
-                        <a class="el-emegi ozel waves-effect waves-light">CHOOSE</a>
-                    </p>
-                </div>
+        </div>
+    </div>
+
+
+    <!--Butonun javascriptleri yazılacak-->
+    <div class="section" id="uyelik">
+        <div class="container">
+            <div class="row">
+                <h2>SUBSCRIBE</h2>
+                <div class="kenar"></div>
+                <p class="flow-text yazi" style="padding-top:46px;">Don't miss our offers and receive some pro tips. We promise we won't spam you, unsubscribe anytime you want.</p>
             </div>
-            <div class="col-md-4">
-                <div class="fiyat-bolumleri">
-                    <div class="fiyat-baslik">
-                        EXTENDED
-                    </div>
-                    <div class="divider"></div>
-                    <div class="fiyat" id="fiyat3">$99</div>
-                    <ul>
-                        <li>Mobile support</li>
-                        <li>Site optimization</li>
-                        <li>SEO setup</li>
-                        <li>MailChimp Subscribers</li>
-                        <li>WebGL effects</li>
-                        <li>PHP integration</li>
-                        <li>Unlimited support</li>
-                    </ul>
-                    <p class="center-align">
-                        <a class="el-emegi waves-effect waves-dark">CHOOSE</a>
-                    </p>
+            <div class="e-mail">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email">
+                                <label for="email">Your email</label>
+                            </div>
+                        </div>
+                    </form>
                 </div>
+                <p class="center-align">
+                    <a class="waves-effect waves-light"><i class="fa fa-paper-plane" style="margin-right:10px; font-size:1.5rem;"></i>SUBSCRIBE</a>
+                </p>
             </div>
         </div>
     </div>

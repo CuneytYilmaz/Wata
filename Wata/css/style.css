@@ -191,7 +191,7 @@ h2{
     background-color:rgb(242, 242, 242);
 }
 
-#ara-kisim a{
+#ara-kisim a, #uyelik a{
     font-size:15px;
     margin-top:20px;
     text-decoration:none;
@@ -206,7 +206,11 @@ h2{
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-#ara-kisim a:hover{
+#uyelik a{
+    margin-top:0 !important;
+}
+
+#ara-kisim a:hover, #uyelik a:hover{
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.3),0 4px 15px 0 rgba(0,0,0,0.25);
 }
 
@@ -319,6 +323,26 @@ h2{
     background-color:#69F0AE !important;
     color:#1a237e !important;
     border-radius:2px !important;
+}
+
+#uyelik{
+    margin-top:30px;
+    background-color:rgb(242, 242, 242);
+}
+
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid #69f0ae;
+     box-shadow: 0 1px 0 0 #69f0ae;
+}
+
+.input-field label.active{
+    color:#9e9e9e !important;
+    font-weight:400;
+}
+
+.input-field label{
+    font-weight:400;
+    margin-left:10px;
 }
 
 body {
